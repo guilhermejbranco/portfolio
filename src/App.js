@@ -16,6 +16,7 @@ class App extends React.Component {
       appendedComponents: [],
       showAbout: false,
       showPortfolio: false,
+      minimze: '',
       opacity:''
     };
     this.textInput = React.createRef();
@@ -60,7 +61,9 @@ class App extends React.Component {
   }
 
   componentDidUpdate(){
+    if(!this.state.minimize){
     this.textInput.current.focus();
+  }
   }
 
   getAppendedComponents(){
@@ -93,6 +96,15 @@ class App extends React.Component {
     }
   }
 
+  minimizeConsole = () => {
+      this.setState({minimize:'minimize'})
+  }
+
+  maximizeConsole = () => {
+    this.setState({minimize:''})
+}
+
+
   eventLogger = (e: MouseEvent, data: Object) => {
     console.log('Event: ', e);
     console.log('Data: ', data);
@@ -116,8 +128,15 @@ class App extends React.Component {
         onStop={this.handleStop}
         cancel=".just-name"
         >
-        <div className={"handle draggable p-2 position-absolute " + this.state.opacity }
+        <div className={"handle draggable p-0 position-absolute " + this.state.opacity + " " + this.state.minimize }
         onMouseLeave={this.handleLeave}>
+          <div className="tab w-100">
+            <span className="tab-button text-warning" onClick={this.minimizeConsole}>&#9679;</span>
+            <span className="tab-button text-success" onClick={this.maximizeConsole}>&#9679;</span>
+
+          </div>
+          
+          <div className="p-2 mt-3 pb-3 overflow-auto mh">
           <Typist>
             <span>Last login: {this.state.date} on guilhermejbranco</span> <br/>
           </Typist>
@@ -135,7 +154,7 @@ class App extends React.Component {
             this.getAppendedComponents()
           }
           </div>
-
+          </div>
 
         </div>
       </Draggable>

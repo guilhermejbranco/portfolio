@@ -1,5 +1,6 @@
 import React from 'react';
 import './Portfolio.css'
+
 import Project from './Project';
 
 class Portfolio extends React.Component {
@@ -14,14 +15,13 @@ class Portfolio extends React.Component {
     return (
 
         <div className="position-absolute mt-3 pl-5 pr-5">
-          <h2 className="text-uppercase font-weight-bold text-center">Portfolio.</h2>
+          <h2 className="text-uppercase title text-center">Portfolio.</h2>
           <hr/>
           <div className="row">
-
             <Project parentProps={{
               title:"YoungNetwork Group",
               year:"2015",
-              link:"https://www.youngnetworkgroup.com/en/",
+              link:"http://www.youngnetworkgroup.com/en/",
               img:"young",
               description: "In charge of implementing a multi-site for the company YoungNetwork Group.\
               Received the design template from the artistic team, and implemented the\
@@ -35,7 +35,7 @@ class Portfolio extends React.Component {
           <Project parentProps={{
             title:"FMH 75 Years",
             year:"2015",
-            link:"https://www.fmh.ulisboa.pt/75anos/",
+            link:"http://www.fmh.ulisboa.pt/75anos/",
             img:"fmh",
             description: "In charge of implementing a comemorative website for Faculdade de Motricidade Humana.\
             Received the design template from the artistic team, and implemented the\
@@ -48,7 +48,7 @@ class Portfolio extends React.Component {
         <Project parentProps={{
           title:"Mercado de Letras Editora",
           year:"2017",
-          link:"https://MERCADODELETRAS.PT",
+          link:"https://cors-anywhere.herokuapp.com/https://MERCADODELETRAS.PT",
           img:"ml",
           description: "Designed and developed a website for the publisher Mercado de Letras.\
           Created the design, and implemented the wordpress theme from scratch.",
@@ -72,7 +72,7 @@ class Portfolio extends React.Component {
         <Project parentProps={{
           title:"News Website",
           year:"2019",
-          link:"#",
+          link:"https://fallouturlerror.com",
           img:"news",
           description: "Designed and developed a website for fetching news from all around the world.\
           Created the design, and developed the website to improve my set of skills and technology stack.",

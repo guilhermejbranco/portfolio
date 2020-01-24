@@ -1,42 +1,36 @@
 import React from 'react';
-import './Project.css'
+import './Project.css';
+import Loader from 'react-loader-spinner'
 
 class Project extends React.Component {
 
   constructor(props) {
     super(props);
     this.state = {
-      live: false
+      isloading: true
     };
+
   }
 
   componentDidMount(){
-
-    fetch(this.props.parentProps.link)
-          .then(
-            (result) => {
-              this.setState({
-                live: true,
-              });
-            },
-            // Note: it's important to handle errors here
-            // instead of a catch() block so that we don't swallow
-            // exceptions from actual bugs in components.
-            (error) => {
-              this.setState({
-                error
-              });
-            }
-          )
+      this.setState({isloading: false}) 
   }
 
   render() {
     return (
 
-          <div className="col-md-4 mt-5 mb-5">
+          <div className="col-md-4 mt-5 mb-5 text-center">
+           {this.state.isloading && <Loader
+         type="TailSpin"
+         color="lightgreen"
+         height={100}
+         width={100}
+         
+
+      /> }
+        { !this.state.isloading && <span className="text-left">
           <h4 className="text-center font-weight-bold">
             <a href={this.props.parentProps.link} target="_blank" rel="noopener noreferrer">
-              <span className={`small ${this.state.live ? 'text-success' : 'text-danger'}`}>&#9679; </span>
               {this.props.parentProps.title}
               <span className="small ml-2">
                  {this.props.parentProps.year}
@@ -50,6 +44,7 @@ class Project extends React.Component {
           <span className="font-weight-bold tag mr-2">Tech Stack</span>
           {this.props.parentProps.techStack}
           </p>
+          </span>}
           </div>
 
 
