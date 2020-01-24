@@ -1,0 +1,24 @@
+.obj-fit{
+   object-fit: contain;
+}
+
+.gif{
+  width: 75px;
+margin-left: -30px;
+}
+
+a{
+  color:black;
+}
+
+a:hover{
+  color: lightgreen;
+  text-decoration: none
+}
+
+.tag{
+    width: 90px;
+    border-right: solid 2px black;
+    /* background-color: white; */
+    display: inline-block;
+}
