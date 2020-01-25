@@ -19,3 +19,7 @@ a:hover{
     /* background-color: white; */
     display: inline-block;
 }
+
+h2{
+  font-family: 'ItcAvantGardBold';
+}

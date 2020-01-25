@@ -13,8 +13,8 @@ class About extends React.Component {
   render() {
     return (
 
-        <div className="position-absolute mt-3 pl-5 pr-5">
-          <h2 className="text-uppercase font-weight-bold text-center">About me.</h2>
+        <div className="position-absolute mt-3 pl-5 pr-5 about">
+          <h2 className="font-weight-bold text-center">about.</h2>
           <hr/>
           <div className="row">
 
@@ -25,7 +25,7 @@ class About extends React.Component {
                Bachelor's in Information Systems and Computer Engineering<br/>
                at <a href="https://tecnico.ulisboa.pt/en/" rel="noopener noreferrer" target="_blank">Instituto Superior Técnico</a>.<br/><br/>
                Web Development is my <span className="font-weight-bold text-danger">passion</span>, and I am it.<br/><br/>
-               - work@guilhermejbranco | +351 918 761 493
+               work@guilhermejbranco <br/> +351 918 761 493
              </h5>
              </Typist>
             </div>

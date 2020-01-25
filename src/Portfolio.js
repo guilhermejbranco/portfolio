@@ -15,7 +15,7 @@ class Portfolio extends React.Component {
     return (
 
         <div className="position-absolute mt-3 pl-5 pr-5">
-          <h2 className="text-uppercase title text-center">Portfolio.</h2>
+          <h2 className="text-title text-center">portfolio.</h2>
           <hr/>
           <div className="row">
             <Project parentProps={{

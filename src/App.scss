@@ -1,0 +1,17 @@
+$highlightcolor : lightgreen;
+
+@font-face {
+  font-family: ItcAvantGardBold;
+  font-weight: bold;
+  src: url("fonts/itc-avant-garde-gothic-bold.otf") format("opentype");
+}
+
+.intro{
+  h1{
+    font-family: 'ItcAvantGardBold';
+  }
+}
+
+.highlight{
+  color: $highlightcolor;
+}
