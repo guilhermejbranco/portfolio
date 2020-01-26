@@ -50,6 +50,7 @@
   transition-property: width;
   transition-duration: 5s;
   min-width: 500px;
+  top: 40vh;
 }
 
 .draggable:hover{

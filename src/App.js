@@ -38,7 +38,7 @@ class App extends React.Component {
       <span>
        
       <Fade show={!this.state.hide && this.state.logged}>
-      <div className="intro ml-4 mr-4 mt-4">
+      <div className="intro ml-4 mr-4 mt-4 position-absolute">
         
         <h1>
       
