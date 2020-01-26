@@ -42,7 +42,7 @@ class App extends React.Component {
         
         <h1>
       
-        hello.
+        Hello.
         <br/><br/>
         My name is <span className="highlight">Guilherme Branco</span> and this is my console. Move it around, interact with it and find out more about me.
         </h1>

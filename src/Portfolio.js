@@ -15,7 +15,7 @@ class Portfolio extends React.Component {
     return (
 
         <div className="position-absolute mt-3 pl-5 pr-5">
-          <h2 className="text-title text-center">portfolio.</h2>
+          <h2 className="text-title text-center">Portfolio.</h2>
           <hr/>
           <div className="row">
             <Project parentProps={{
@@ -48,7 +48,7 @@ class Portfolio extends React.Component {
         <Project parentProps={{
           title:"Mercado de Letras Editora",
           year:"2017",
-          link:"https://cors-anywhere.herokuapp.com/https://MERCADODELETRAS.PT",
+          link:"https://MERCADODELETRAS.PT",
           img:"ml",
           description: "Designed and developed a website for the publisher Mercado de Letras.\
           Created the design, and implemented the wordpress theme from scratch.",
