@@ -18,9 +18,9 @@ class Login extends React.Component {
 
   _handleKeyDown = (e) => {
     if (e.key === 'Enter') { 
-      if(e.target.value.toLowerCase() !== "benfica" ||
-      e.target.value.toLowerCase() !== "slb" ||
-      e.target.value.toLowerCase() !== "slbenfica" ||
+      if(e.target.value.toLowerCase() !== "benfica" &&
+      e.target.value.toLowerCase() !== "slb" &&
+      e.target.value.toLowerCase() !== "slbenfica" &&
       e.target.value.toLowerCase() !== "sport lisboa e benfica"
       ) {
         this.setState({isLoading: true})
