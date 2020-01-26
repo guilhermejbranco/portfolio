@@ -35,7 +35,7 @@ class Console extends React.Component {
        appendedCompsCount: this.state.appendedCompsCount + 1
      });
 
-     var command = this.textInput.current.value
+     var command = this.textInput.current.value.toLowerCase()
 
      switch(command){
        case "clear":
