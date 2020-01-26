@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.1ca0e58e.chunk.css",
-    "main.js": "/portfolio/static/js/main.24feef3a.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.24feef3a.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.4623a752.chunk.css",
+    "main.js": "/portfolio/static/js/main.34fa2c9a.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.34fa2c9a.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.44087e9b.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.44087e9b.js.map",
     "static/css/2.d9183e08.chunk.css": "/portfolio/static/css/2.d9183e08.chunk.css",
-    "static/js/2.9fea9aab.chunk.js": "/portfolio/static/js/2.9fea9aab.chunk.js",
-    "static/js/2.9fea9aab.chunk.js.map": "/portfolio/static/js/2.9fea9aab.chunk.js.map",
+    "static/js/2.853bb508.chunk.js": "/portfolio/static/js/2.853bb508.chunk.js",
+    "static/js/2.853bb508.chunk.js.map": "/portfolio/static/js/2.853bb508.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.dcc9b2323d342b8a0d1450c78caad97e.js": "/portfolio/precache-manifest.dcc9b2323d342b8a0d1450c78caad97e.js",
+    "precache-manifest.0530f876e2eb07380bfbf8a8566a262a.js": "/portfolio/precache-manifest.0530f876e2eb07380bfbf8a8566a262a.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.d9183e08.chunk.css.map": "/portfolio/static/css/2.d9183e08.chunk.css.map",
-    "static/css/main.1ca0e58e.chunk.css.map": "/portfolio/static/css/main.1ca0e58e.chunk.css.map",
-    "static/js/2.9fea9aab.chunk.js.LICENSE": "/portfolio/static/js/2.9fea9aab.chunk.js.LICENSE",
+    "static/css/main.4623a752.chunk.css.map": "/portfolio/static/css/main.4623a752.chunk.css.map",
+    "static/js/2.853bb508.chunk.js.LICENSE": "/portfolio/static/js/2.853bb508.chunk.js.LICENSE",
     "static/media/cj.png": "/portfolio/static/media/cj.38649b96.png",
     "static/media/fmh.png": "/portfolio/static/media/fmh.9dcf9a9d.png",
     "static/media/guibitmap.gif": "/portfolio/static/media/guibitmap.9ba8af6a.gif",
-    "static/media/App.scss": "/portfolio/static/media/itc-avant-garde-gothic-bold.a7cef4dc.otf",
+    "static/media/Login.scss": "/portfolio/static/media/itc-avant-garde-gothic-bold.a7cef4dc.otf",
     "static/media/ml.png": "/portfolio/static/media/ml.61b71333.png",
     "static/media/news.png": "/portfolio/static/media/news.ea1d45a4.png",
     "static/media/weather.png": "/portfolio/static/media/weather.815a2638.png",
@@ -27,8 +27,8 @@
   "entrypoints": [
     "static/js/runtime-main.44087e9b.js",
     "static/css/2.d9183e08.chunk.css",
-    "static/js/2.9fea9aab.chunk.js",
-    "static/css/main.1ca0e58e.chunk.css",
-    "static/js/main.24feef3a.chunk.js"
+    "static/js/2.853bb508.chunk.js",
+    "static/css/main.4623a752.chunk.css",
+    "static/js/main.34fa2c9a.chunk.js"
   ]
 }
