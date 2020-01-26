@@ -49,8 +49,7 @@
   -webkit-transition-duration: 5s; /* Safari */
   transition-property: width;
   transition-duration: 5s;
-  top: 236px;
-  left: 98px;
+  min-width: 500px;
 }
 
 .draggable:hover{
