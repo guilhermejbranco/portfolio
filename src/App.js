@@ -35,10 +35,6 @@ class App extends React.Component {
         <br/><br/>
         My name is <span className="highlight">Guilherme Branco</span> and this is my console. Move it around, interact with it and find out more about me.
         </h1>
-        <div className="consoleOutboud mt-4">
-        
-
-        </div>
         
       </div>
       }
