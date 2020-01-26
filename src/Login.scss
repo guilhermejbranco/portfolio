@@ -1,0 +1,56 @@
+$highlightcolor : lightgreen;
+
+@font-face {
+  font-family: ItcAvantGardBold;
+  font-weight: bold;
+  src: url("fonts/itc-avant-garde-gothic-bold.otf") format("opentype");
+}
+
+.login{
+  height:100vh;
+}
+
+.login-bg {
+  top:0px;
+  left:0px;
+  z-index: -1;
+  background-image: url("https://macmagazine.uol.com.br/wp-content/uploads/2018/06/04-wallpaper_macos-mojave.jpg");
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: scale(1.1);
+}
+
+.profile-pic {
+  margin-top:20vh;
+  border-radius:100%;
+  width:100px;
+}
+
+.password-input{
+  border-radius: 5px;
+  border: none;
+  height: 35px;
+  width: 250px;
+  background-color:rgba($color: #FFFFFF, $alpha: 0.2);
+  color:white;
+
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 0.3; /* Firefox */
+}
+
+.hint {
+  margin-top: 30vh;
+}
+
+.load {
+  padding-top: 45vh;
+}

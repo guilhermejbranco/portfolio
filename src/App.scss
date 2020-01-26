@@ -15,3 +15,13 @@ $highlightcolor : lightgreen;
 .highlight{
   color: $highlightcolor;
 }
+
+.consoleOutboud{
+  border: solid 2px;
+  padding: 20px;
+  
+  left: 250px;
+  height: 55vh;
+  width: 54vw;
+  position: relative;
+}

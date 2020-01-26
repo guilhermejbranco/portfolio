@@ -60,7 +60,7 @@ class Project extends React.Component {
           </h5>
           {this.props.parentProps.img &&
           <ImageContentHover 
-          className="w-100 h-50 shadow"
+          className="w-100 h-50 shadow minheight"
           tileWidth="100%"
           tileHeight="100%" 
           image={require('./img/portfolio/'+ this.props.parentProps.img +'.png')}

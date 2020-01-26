@@ -52,6 +52,9 @@ class Console extends React.Component {
         this.setState({showAbout:false, showPortfolio: true})
         this.props.parentCallback(true);
          break;
+         case "logout":
+          this.props.logoutCallback(false);
+           break;
       default:
          var error = document.createElement('span'); // is a node
          error.innerHTML = "-bash: " + this.textInput.current.value + ": command not found";
@@ -81,10 +84,14 @@ class Console extends React.Component {
         type="text"
         className="just-name console-input pl-2"
         onKeyDown={this._handleKeyDown}
-        ref={i === this.state.appendedCompsCount - 1 ? this.textInput : null}
+        ref={i === this.state.appendedCompsCount - 1 ? this.textInput : null
+          
+        }
+        disabled = {i == this.state.appendedCompsCount -1 ? false : "disabled"}
         />
        </div>
       )
+
     }
     return appendedComponents;
   }
@@ -130,7 +137,7 @@ class Console extends React.Component {
         onStop={this.handleStop}
         cancel=".just-name"
         >
-        <div className={"handle draggable p-0 position-absolute " + this.state.opacity + " " + this.state.minimize }
+        <div className={"handle draggable p-0 position-fixed " + this.state.opacity + " " + this.state.minimize }
         onMouseLeave={this.handleLeave}>
           <div className="tab w-100">
             <span className="tab-button text-danger" >&#9679;</span>
@@ -150,6 +157,7 @@ class Console extends React.Component {
           portfolio -------- Displays my portfolio page.<br/>
           clean ----------- Cleans the screen.<br/>
           clear ------------ Clears the console.<br/>
+          logout ------------ Locks the screen.<br/>
           <br/>
           </div>
           <div ref={this.console}>
