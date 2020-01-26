@@ -13,7 +13,7 @@ class About extends React.Component {
   render() {
     return (
 
-        <div className="position-absolute mt-3 pl-5 pr-5 about">
+        <div className="position-absolute mt-3 pl-5 pr-5 about w-100">
           <h2 className="font-weight-bold text-center">about.</h2>
           <hr/>
           <div className="row">

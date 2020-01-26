@@ -4,6 +4,7 @@ import About from './About'
 import Portfolio from './Portfolio'
 import Draggable from 'react-draggable';
 import Typist from 'react-typist';
+import Fade from './Fade'
 
 class Console extends React.Component {
 
@@ -123,8 +124,14 @@ class Console extends React.Component {
     return (
       <span>
 
-      {this.state.showAbout && <About/> }
-      {this.state.showPortfolio && <Portfolio/> }
+      <Fade show={this.state.showAbout}>
+        <About/> 
+      </Fade>      
+      
+      <Fade show={this.state.showPortfolio}>
+      <Portfolio/> 
+      </Fade>
+      
 
       <Draggable
         axis="both"

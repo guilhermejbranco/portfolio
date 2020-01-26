@@ -8,7 +8,7 @@ class Login extends React.Component {
     super(props);
     this.state = {
       wrong: false,
-      isLoading: false,
+      isLoading: false
     };
   }
 
@@ -34,9 +34,7 @@ class Login extends React.Component {
       else{
         this.setState({isLoading: true})
         this.sleep(1000).then(() => {
-
           this.props.parentCallback(true);
-          this.setState({isLoading: false})
         })
         
       }
@@ -55,7 +53,7 @@ class Login extends React.Component {
       <input type="password" 
       className="password-input pl-2 mt-4" 
       placeholder="Enter password"
-      onKeyDown={this._handleKeyDown}
+      onKeyDown={this._handleKeyDown} autoFocus
       ></input>
       {this.state.wrong && 
       <div class="mt-2 text-danger" role="alert">

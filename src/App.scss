@@ -15,3 +15,44 @@ $highlightcolor : lightgreen;
 .highlight{
   color: $highlightcolor;
 }
+
+.image-container {
+  position: relative;
+}
+.image-container img {
+  object-fit: cover;
+}
+
+.image-container .hover-content {
+  width: 0px;
+  height: 0px;
+  visibility: hidden;
+  z-index: 5;
+  position: absolute;
+  overflow: hidden;
+  left: 0px;
+  top: 0px;
+  padding: 9px;
+  background: #e0cfcf;
+  opacity: 0;
+}
+
+/* styles.css */
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

@@ -2,6 +2,8 @@ import React from 'react';
 import './App.scss'
 import Console from './Console'
 import Login from './Login'
+import Fade from "./Fade";
+
 
 class App extends React.Component {
 
@@ -9,7 +11,8 @@ class App extends React.Component {
     super(props);
     this.state = {
       hide: false,
-      logged: false
+      logged: false,
+      showLogin: true
     };
   }
 
@@ -19,16 +22,24 @@ class App extends React.Component {
 
   loginFunction = (childData) => {
     this.setState({logged: childData})
-    this.setState({hide: false})
+    if(childData){
+      this.setState({showLogin: false})
+      this.setState({hide: false})
+    }
+    else{
+      this.setState({showLogin: true})
+      this.setState({hide: true})
+
+    }
   }
 
   render() {
     return (
       <span>
-        {
-      !this.state.hide && this.state.logged &&
-    
+       
+      <Fade show={!this.state.hide && this.state.logged}>
       <div className="intro ml-4 mr-4 mt-4">
+        
         <h1>
       
         hello.
@@ -37,13 +48,18 @@ class App extends React.Component {
         </h1>
         
       </div>
-      }
-              {
-      this.state.logged &&
-      <Console parentCallback = {this.callbackFunction} logoutCallback = {this.loginFunction}/>}
-      {
-      !this.state.logged &&
-      <Login parentCallback = {this.loginFunction}/>}
+      </Fade>
+      
+      
+      <Fade show={this.state.logged}>
+      <Console parentCallback = {this.callbackFunction} logoutCallback = {this.loginFunction}/>
+      </Fade>
+      
+      
+      <Fade show={this.state.showLogin}>
+        <Login parentCallback = {this.loginFunction}/>
+      </Fade>
+      
       </span>
     );
   }

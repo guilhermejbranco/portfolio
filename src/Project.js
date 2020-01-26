@@ -1,7 +1,7 @@
 import React from 'react';
 import './Project.scss';
-import Loader from 'react-loader-spinner'
-import ImageContentHover from 'react-image-hover';
+
+import ImageContentHover from './ImageContentHover';
 
 class Project extends React.Component {
 
@@ -12,6 +12,11 @@ class Project extends React.Component {
       techStack: []
     };
 
+  }
+
+  callbackFunction = (childData) => {
+    
+    this.setState({isloading: childData})
   }
 
   getTech(){
@@ -32,7 +37,6 @@ class Project extends React.Component {
   }
 
   componentDidMount(){
-      this.setState({isloading: false}) 
       this.setState({techStack: this.props.parentProps.techStack.split(", ")}) 
       
   }
@@ -41,15 +45,8 @@ class Project extends React.Component {
     return (
 
     <div className="col-md-4 mt-2 text-center project">
-           {this.state.isloading && <Loader
-         type="TailSpin"
-         color="lightgreen"
-         height={100}
-         width={100}
-         
 
-      /> }
-        { !this.state.isloading && <span className="text-left">
+        <span className="text-left">
           <h5 className="text-center font-weight-bold">
             <a href={this.props.parentProps.link} target="_blank" rel="noopener noreferrer">
               {this.props.parentProps.title} . 
@@ -67,6 +64,7 @@ class Project extends React.Component {
           content={{
             body: this.getTech()
           }} 
+          parentCallback = {this.callbackFunction}
           effect="fadeIn" />}
           <hr></hr>
           <p className="mt-1">{this.props.parentProps.description}
@@ -81,7 +79,7 @@ class Project extends React.Component {
           </span>
           }
           </p>
-          </span>}
+          </span>
           </div>
 
 
