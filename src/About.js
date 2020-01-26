@@ -25,7 +25,7 @@ class About extends React.Component {
                Bachelor's in Information Systems and Computer Engineering<br/>
                at <a href="https://tecnico.ulisboa.pt/en/" rel="noopener noreferrer" target="_blank">Instituto Superior Técnico</a>.<br/><br/>
                Web Development is my <span className="font-weight-bold text-danger">passion</span>, and I am it.<br/><br/>
-               work@guilhermejbranco <br/> +351 918 761 493
+               work@guilhermejbranco.com <br/> +351 918 761 493
              </h5>
              </Typist>
             </div>
@@ -45,7 +45,7 @@ class About extends React.Component {
                  PyCharm, <span  className="font-weight-bold">Photoshop, GIT</span>, CVS.
                  <br/><br/>
                  <span class="text-danger">Back |</span> Java,
-                 <span  className="font-weight-bold">Python</span>, PHP, C,
+                 <span  className="font-weight-bold"> Python</span>, PHP, C,
                  Spring Boot, Maven, <span  className="font-weight-bold">XML/XSD, MySQL</span>, PL/SQL, Postgres.
                 </h5>
               </Typist>
