@@ -17,7 +17,7 @@ class Login extends React.Component {
   }
 
   _handleKeyDown = (e) => {
-    if (e.key === 'Enter') { 
+    if (e.key === 'Enter') {
       if(e.target.value.toLowerCase() !== "benfica" &&
       e.target.value.toLowerCase() !== "slb" &&
       e.target.value.toLowerCase() !== "slbenfica" &&
@@ -29,14 +29,14 @@ class Login extends React.Component {
           this.setState({wrong: true})
           this.setState({isLoading: false})
         })
-        
+
       }
       else{
         this.setState({isLoading: true})
         this.sleep(1000).then(() => {
           this.props.parentCallback(true);
         })
-        
+
       }
     }
   }
@@ -48,19 +48,19 @@ class Login extends React.Component {
       </div>
       {!this.state.isLoading &&
       <span>
-      <img src="https://media-exp2.licdn.com/dms/image/C5603AQFUgLh7XISbgw/profile-displayphoto-shrink_200_200/0?e=1585785600&v=beta&t=f8x4I2h5PeeS9gjNGgDGGPwil2TscBTH3WdZYq8dOlE" className="profile-pic"></img>
+      <img src="https://media-exp1.licdn.com/dms/image/C4D03AQFyJgvMbgeQTA/profile-displayphoto-shrink_800_800/0/1585612121229?e=1624492800&v=beta&t=Zj1VyyNXy-WGXzZS14Sc3WxIzIvOXds2bzuA5vUEiWI" className="profile-pic"></img>
       <h5><div className="mt-3 text-white">Guilherme Branco</div></h5>
-      <input type="password" 
-      className="password-input pl-2 mt-4" 
+      <input type="password"
+      className="password-input pl-2 mt-4"
       placeholder="Enter password"
       onKeyDown={this._handleKeyDown} autoFocus
       ></input>
-      {this.state.wrong && 
+      {this.state.wrong &&
       <div class="mt-2 text-danger" role="alert">
         Ahah. Really? Try again.
       </div>
       }
-      <div className=" text-white hint">I'm not a gennie, but I think the password is the best portuguese football club.</div>
+      <div className=" text-white hint">I'm no gennie, but I think the password is the best portuguese football club.</div>
       </span>
       }
 
@@ -72,7 +72,7 @@ class Login extends React.Component {
          color="white"
          height={50}
          width={50}
-         
+
       />
       </div>
       }
