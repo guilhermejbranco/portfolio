@@ -21,7 +21,7 @@ class About extends React.Component {
             <div className="col-md-6">
             <Typist avgTypingDelay={0}>
             <h5>
-               I am a 25 yo Web Developer from Lisbon, Portugal. <br/> <br/>
+               I am a 26 yo Full Stack Developer from Lisbon, Portugal. <br/> <br/>
                Bachelor's in Information Systems and Computer Engineering<br/>
                at <a href="https://tecnico.ulisboa.pt/en/" rel="noopener noreferrer" target="_blank">Instituto Superior Técnico</a>.<br/><br/>
                Web Development is my <span className="font-weight-bold text-danger">passion</span>, and I am it.<br/><br/>
@@ -37,16 +37,18 @@ class About extends React.Component {
 
                 <h5>
                 <span class="text-success">Front |</span><span className="font-weight-bold"> HTML5, CSS3, Javascript</span>,
-                jQuery, Vue.js, <span  className="font-weight-bold">Bootstrap, SASS, Wordpress, </span>
-                 Flask, Jinja2, React.
+                jQuery, Vue.js/Nuxt.js, <span  className="font-weight-bold">Bootstrap, SASS (BEM), Wordpress, </span>
+                 Flask, Jinja2, React, Bootstrap.
                  <br/><br/>
                  <span class="text-warning">Mid/Tools |</span>
-                 <span  className="font-weight-bold"> TIBCO</span>, Enzyme, Jest, Eclipse, Webstorm,
-                 PyCharm, <span  className="font-weight-bold">Photoshop, GIT</span>, CVS.
+                 <span  className="font-weight-bold"> GraphQL, TIBCO</span>, Enzyme, Jest, Eclipse, Webstorm,
+                 PyCharm, <span  className="font-weight-bold">Photoshop, GIT</span>, CVS, Jira, Trello, ESLint.
                  <br/><br/>
                  <span class="text-danger">Back |</span> Java,
                  <span  className="font-weight-bold"> Python</span>, PHP, C,
-                 Spring Boot, Maven, <span  className="font-weight-bold">XML/XSD, MySQL</span>, PL/SQL, Postgres.
+                 Spring Boot, Maven, Strapi, <span  className="font-weight-bold">XML/XSD, MySQL</span>, PL/SQL, Postgres, MongoDB.
+                 <br/><br/>
+                 <span class="text-info">DevOps |</span> GitLab, Azure, Firebase.
                 </h5>
               </Typist>
               </div>
