@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6773a8e54ca7b4e791ec29d72c992f4e",
+    "revision": "69eaf64318fe9a362535f53d70a911b9",
     "url": "/portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/css/2.d9183e08.chunk.css"
   },
   {
-    "revision": "e980ff77959552749b98",
+    "revision": "833dfe855606ec44d35a",
     "url": "/portfolio/static/css/main.55e5541c.chunk.css"
   },
   {
@@ -20,12 +20,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.ab03157b.chunk.js.LICENSE"
   },
   {
-    "revision": "e980ff77959552749b98",
-    "url": "/portfolio/static/js/main.4a4b64d8.chunk.js"
+    "revision": "833dfe855606ec44d35a",
+    "url": "/portfolio/static/js/main.81f9830a.chunk.js"
   },
   {
     "revision": "0d98471f6c3b69ca4251",
     "url": "/portfolio/static/js/runtime-main.44087e9b.js"
+  },
+  {
+    "revision": "b7bd1b794f65b1e789f2da936cfbe688",
+    "url": "/portfolio/static/media/app-goparity.b7bd1b79.png"
   },
   {
     "revision": "38649b96e3f82fd82bb6f610223e339f",
@@ -42,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9dcf9a9da417a5068cf2f99ee69c9dd7",
     "url": "/portfolio/static/media/fmh.9dcf9a9d.png"
+  },
+  {
+    "revision": "bda1886df094eeaca16d5b5057e7c8f3",
+    "url": "/portfolio/static/media/goparity.bda1886d.png"
   },
   {
     "revision": "9ba8af6a13e79ad9236b8d83b319d3dd",

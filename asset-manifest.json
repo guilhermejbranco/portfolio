@@ -1,23 +1,25 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.55e5541c.chunk.css",
-    "main.js": "/portfolio/static/js/main.4a4b64d8.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.4a4b64d8.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.81f9830a.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.81f9830a.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.44087e9b.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.44087e9b.js.map",
     "static/css/2.d9183e08.chunk.css": "/portfolio/static/css/2.d9183e08.chunk.css",
     "static/js/2.ab03157b.chunk.js": "/portfolio/static/js/2.ab03157b.chunk.js",
     "static/js/2.ab03157b.chunk.js.map": "/portfolio/static/js/2.ab03157b.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.8cd6ff505c760d2fd31b0805fc7427f1.js": "/portfolio/precache-manifest.8cd6ff505c760d2fd31b0805fc7427f1.js",
+    "precache-manifest.7765cba9af9cd83d509c1c62fdc3cd3d.js": "/portfolio/precache-manifest.7765cba9af9cd83d509c1c62fdc3cd3d.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.d9183e08.chunk.css.map": "/portfolio/static/css/2.d9183e08.chunk.css.map",
     "static/css/main.55e5541c.chunk.css.map": "/portfolio/static/css/main.55e5541c.chunk.css.map",
     "static/js/2.ab03157b.chunk.js.LICENSE": "/portfolio/static/js/2.ab03157b.chunk.js.LICENSE",
+    "static/media/app-goparity.png": "/portfolio/static/media/app-goparity.b7bd1b79.png",
     "static/media/cj.png": "/portfolio/static/media/cj.38649b96.png",
     "static/media/firepanel-console.png": "/portfolio/static/media/firepanel-console.409357ad.png",
     "static/media/firepanel.png": "/portfolio/static/media/firepanel.8d9a14ee.png",
     "static/media/fmh.png": "/portfolio/static/media/fmh.9dcf9a9d.png",
+    "static/media/goparity.png": "/portfolio/static/media/goparity.bda1886d.png",
     "static/media/guibitmap.gif": "/portfolio/static/media/guibitmap.9ba8af6a.gif",
     "static/media/Login.scss": "/portfolio/static/media/itc-avant-garde-gothic-bold.a7cef4dc.otf",
     "static/media/ml.png": "/portfolio/static/media/ml.61b71333.png",
@@ -33,6 +35,6 @@
     "static/css/2.d9183e08.chunk.css",
     "static/js/2.ab03157b.chunk.js",
     "static/css/main.55e5541c.chunk.css",
-    "static/js/main.4a4b64d8.chunk.js"
+    "static/js/main.81f9830a.chunk.js"
   ]
 }
