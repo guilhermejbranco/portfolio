@@ -20,7 +20,7 @@ class Portfolio extends React.Component {
           <div className="row">
           <Project parentProps={{
               title:"Goparity App",
-              year:"2021",
+              year:"2023",
               link:"https://app.goparity.com",
               img:"app-goparity",
               description: "Developed the app of Goparity. Implemented several flows, functionalities and animations",
@@ -30,7 +30,7 @@ class Portfolio extends React.Component {
           }}/>
           <Project parentProps={{
               title:"Goparity Website",
-              year:"2021",
+              year:"2022",
               link:"https://goparity.com",
               img:"goparity",
               description: "Developed some improvements of the public website of Goparity.",
