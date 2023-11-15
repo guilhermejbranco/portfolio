@@ -19,6 +19,26 @@ class Portfolio extends React.Component {
           <hr/>
           <div className="row">
           <Project parentProps={{
+              title:"Goparity App",
+              year:"2021",
+              link:"https://app.goparity.com",
+              img:"app-goparity",
+              description: "Developed the app of Goparity. Implemented several flows, functionalities and animations",
+              teamSize: "4",
+              company: "Goparity",
+              techStack: "Vue.js, HTML5, CSS3, TailwindCSS, SCSS, Laravel, MySQL"
+          }}/>
+          <Project parentProps={{
+              title:"Goparity Website",
+              year:"2021",
+              link:"https://goparity.com",
+              img:"goparity",
+              description: "Developed some improvements of the public website of Goparity.",
+              teamSize: "4",
+              company: "Goparity",
+              techStack: "Nuxt.js, HTML5, CSS3, TailwindCSS, SCSS, Laravel, MySQL"
+          }}/>
+          <Project parentProps={{
           title:"Firepanel Console",
           year:"2021",
           link:"https://console.firepanel.io",

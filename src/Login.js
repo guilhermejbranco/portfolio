@@ -48,7 +48,7 @@ class Login extends React.Component {
       </div>
       {!this.state.isLoading &&
       <span>
-      <img src="https://media-exp1.licdn.com/dms/image/C4D03AQFyJgvMbgeQTA/profile-displayphoto-shrink_800_800/0/1585612121229?e=1624492800&v=beta&t=Zj1VyyNXy-WGXzZS14Sc3WxIzIvOXds2bzuA5vUEiWI" className="profile-pic"></img>
+      <img src="https://media.licdn.com/dms/image/C4D03AQFyJgvMbgeQTA/profile-displayphoto-shrink_800_800/0/1585612121865?e=1705536000&v=beta&t=6twMp37QASzqHFIHwicR62J0XxlJhWDXjtTFRdpbr2A" className="profile-pic"></img>
       <h5><div className="mt-3 text-white">Guilherme Branco</div></h5>
       <input type="password"
       className="password-input pl-2 mt-4"
